@@ -160,7 +160,7 @@ int main(int argc, char *argv[]){
 
 		else if (test_step(buf) > 0){ //Dans ce cas on avance de n pas.
 			int n = test_step(buf);
-
+			printf("TESTTTTTTTTTT\n");
 			for (int m =0; m<n; m++){
 				if (curseur.lec=='@'){ play =0;break;}
 				if (pont>0){
